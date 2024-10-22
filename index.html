@@ -488,15 +488,14 @@
         <div class="footer-subscribe">
           <p class="footer-subscribe-text">Subscribe</p>
           <form class="footer-subscribe-form">
-            <div class="footer-subscribe-wrapper">
-              <label class="footer-subscribe-label" for="email">E-mail</label>
+            <label class="footer-subscribe-label">
               <input
                 class="footer-subscribe-inputs"
-                id="email"
                 name="email"
                 type="email"
+                placeholder="E-mail"
               />
-            </div>
+            </label>
             <button class="footer-subscribe-btn">
               Subscribe<svg
                 class="footer-subscribe-bth-icon"
@@ -564,7 +563,7 @@
               </svg>
             </div>
           </div>
-          <div class="form-wrapper">
+          <div class="form-wrapper-comment">
             <label class="form-label" for="user-comment">Comment</label>
             <textarea
               class="form-comment"
@@ -577,20 +576,16 @@
           <div class="checkbox-wrapper">
             <input
               class="checkbox-inputs visually-hidden"
-              id="privacy-policy"
-              name="privacy-policy"
+              id="user-privacy"
+              name="user-privacy"
               type="checkbox"
               value="true"
               required
             />
-            <label class="checkbox-label" for="privacy-policy"
+            <label class="checkbox-label" for="user-privacy"
               ><span class="checkbox-label-custom">
-                <svg class="checkbox-label-icon">
-                  <use
-                    href="./images/icons.svg#icon-vector"
-                    width="10"
-                    height="8"
-                  ></use>
+                <svg class="checkbox-label-icon" width="10" height="8">
+                  <use href="./images/icons.svg#icon-vector"></use>
                 </svg> </span
               >I accept the terms and conditions of the
               <a class="checkbox-label-link" href="">Privacy Policy</a></label
